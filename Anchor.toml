@@ -1,0 +1,12 @@
+[programs.devnet]
+punky_staking = "3n7nc4FUKJRxhovqwxV9XfYahRcjbxwnaFp1ZSXWqAZ1"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ubuntu/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
